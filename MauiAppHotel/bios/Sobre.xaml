@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.bios.Sobre"
+             Title="Sobre">
+    <VerticalStackLayout VerticalOptions="CenterAndExpand" Padding="10">
+        
+        <Label 
+            Text="Desenvolvido Por: Leonardo"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="40"
+            FontFamily="Caveat-Bold"
+            TextColor="{x:StaticResource Primary}" />
+        <Label 
+            Text="Em: 14/05/2026"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="50"
+            FontFamily="Caveat-Bold"
+            TextColor="{x:StaticResource Primary}" />
+        
+    </VerticalStackLayout>
+</ContentPage>
