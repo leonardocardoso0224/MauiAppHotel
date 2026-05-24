@@ -14,7 +14,7 @@
             HorizontalOptions="Center"
             FontSize="50"
             FontFamily="Caveat-Bold"
-            TextColor="{StaticResource Primary}"/>
+            TextColor="{StaticResource Gray400}"/>
 
         <Frame Padding="10">
             <VerticalStackLayout>
